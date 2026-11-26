@@ -2,9 +2,7 @@
 
 Analysis of 2,000 support tickets to find what slows down resolution, where the backlog builds up, and which changes would cut it. Data is cleaned and modeled in **PostgreSQL**, then visualized in a four-page **Power BI** dashboard with recommendations.
 
-<!-- Uncomment after adding screenshots/overview.png:
 ![Dashboard overview](screenshots/overview.png)
--->
 
 ## Key findings
 
@@ -28,7 +26,7 @@ These are recommendations to test, for example by running the triage change for 
 
 ## Dataset
 
-- Source: Kaggle support tickets dataset (synthetic) — *(https://www.kaggle.com/datasets/kaiwalyaatulraut/customer-support-tickets-dataset)*
+- Source: Kaggle support tickets dataset (synthetic) — [Customer Support Tickets on Kaggle](https://www.kaggle.com/datasets/kaiwalyaatulraut/customer-support-tickets-dataset)
 - 2,000 tickets, January 2024 – June 2025, 23 columns: priority, category, channel, product, agent, timestamps, resolution and first-response hours, CSAT, reopen and escalation flags
 - The CSV is not included in this repo; download it from the link above.
 
@@ -67,6 +65,15 @@ screenshots/               one image per dashboard page
 | **Recommendations** | Four data-backed recommendations |
 
 Slicers for priority, channel and month are synced across pages.
+
+### Speed
+![Speed page](screenshots/speed.png)
+
+### Bottlenecks
+![Bottlenecks page](screenshots/bottlenecks.png)
+
+### Recommendations
+![Recommendations page](screenshots/recommendations.png)
 
 ## Assumptions
 
