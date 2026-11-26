@@ -28,7 +28,7 @@ These are recommendations to test, for example by running the triage change for 
 
 ## Dataset
 
-- Source: Kaggle support tickets dataset (synthetic) — *(link to be added)*
+- Source: Kaggle support tickets dataset (synthetic) — *(https://www.kaggle.com/datasets/kaiwalyaatulraut/customer-support-tickets-dataset)*
 - 2,000 tickets, January 2024 – June 2025, 23 columns: priority, category, channel, product, agent, timestamps, resolution and first-response hours, CSAT, reopen and escalation flags
 - The CSV is not included in this repo; download it from the link above.
 
